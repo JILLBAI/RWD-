@@ -148,7 +148,7 @@ nav div a:hover {
         grid-template-columns: 1fr;
   }
   #picture div {
-    height: 450px;
+    height: 400px;
   }
   #picture div:nth-child(2) {
     background-image: url(./img/p-beach-1.jpg);
@@ -169,6 +169,7 @@ nav div a:hover {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

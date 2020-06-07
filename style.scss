@@ -147,7 +147,7 @@ nav{
         grid-template-columns: 1fr;
 
         div{
-            height: 450px;
+            height: 400px;
 
             &:nth-child(2){
                background-image: url(./img/p-beach-1.jpg);
@@ -168,6 +168,7 @@ nav{
 
         h1{
             grid-column: 1 / 2;
+            text-align: center;
         }
     }
 
