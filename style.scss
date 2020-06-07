@@ -126,11 +126,50 @@ nav{
 
 
 
-
-
-
 }
-
+//手機模式
 @media screen and (max-width:767px){
+    // 手機寬度
+    @mixin moble-box{
+        width: 100%;
+        
+        transition: 0.3s;
+    }
+    nav{
+        div{
+            @include moble-box();
+            background-size:cover;
+            
+        }
+    }
+    #picture{
+        @include moble-box();
+        grid-template-columns: 1fr;
+
+        div{
+            height: 450px;
+
+            &:nth-child(2){
+               background-image: url(./img/p-beach-1.jpg);
+            background-size:cover;
+
+            }
+            &:nth-child(3){
+                background-image: url(./img/p-beach-2.jpg);
+                background-size:cover;
+             }
+        }
+        
+    }
     
+    #content{
+        @include moble-box();
+        grid-template-columns: 1fr;
+
+        h1{
+            grid-column: 1 / 2;
+        }
+    }
+
+
 }
