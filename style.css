@@ -34,7 +34,7 @@ nav div a:hover {
 #banner {
   width: 100%;
   height: 90vh;
-  background-image: url(./img/df.jpg);
+  background-image: url(./img/lodon.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -54,23 +54,19 @@ nav div a:hover {
 }
 
 #picture div:nth-child(1) {
-  background: deepskyblue;
-  font-size: 42px;
+  background-image: url(./img/charles-postiaux-Q6UehpkBSnQ-unsplash.jpg);
+  background-size: cover;
   display: -ms-grid;
   display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
 }
 
 #picture div:nth-child(2) {
-  background-image: url(./img/d-beach-1.jpg);
+  background-image: url(./img/IMG_0685.jpg);
   background-size: cover;
 }
 
 #picture div:nth-child(3) {
-  background-image: url(./img/d-beach-2.jpg);
+  background-image: url(./img/IMG_0491.jpeg);
   background-size: cover;
 }
 
@@ -120,10 +116,10 @@ nav div a:hover {
     grid-column: 1 / 3;
   }
   #picture div:nth-child(2) {
-    background-image: url(./img/p-beach-1.jpg);
+    background-image: url(./img/IMG_0685.jpg);
   }
   #picture div:nth-child(3) {
-    background-image: url(./img/p-beach-2.jpg);
+    background-image: url(./img/IMG_0491.jpeg);
   }
   #content {
     width: 750px;
@@ -151,11 +147,11 @@ nav div a:hover {
     height: 400px;
   }
   #picture div:nth-child(2) {
-    background-image: url(./img/p-beach-1.jpg);
+    background-image: url(./img/IMG_0685.jpg);
     background-size: cover;
   }
   #picture div:nth-child(3) {
-    background-image: url(./img/p-beach-2.jpg);
+    background-image: url(./img/IMG_0491.jpeg);
     background-size: cover;
   }
   #content {
